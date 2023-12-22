@@ -1,0 +1,147 @@
+[
+    {
+        "id_checklist": 1,
+        "chk_nome": "FVS. 114 - Execução de Alvenaria de Vedação",
+        "chk_descricao": "",
+        "campos": [
+            {
+                "id": 1,
+                "id_checklist": 1,
+                "item_nome": "Esquadro 1ª fiada",
+                "item_descricao": "",
+                "item_dica": "Método de verificação: Com esquadro metálico e trena\nCritério de aceitação: 3 mm na ponta do esquadro",
+                "item_tipo": "Avaliativo",
+                "item_formato": "",
+                "item_obrigatorio": "Sim",
+                "item_tipo_avaliacao": "Opinião (Não/Sim/N.A)",
+                "item_peso": "17",
+                "arrAvaliacao": [
+                    {
+                        "n_ruim": [
+                            "plnAcao"
+                        ],
+                        "na_regular": [],
+                        "s_bom": []
+                    }
+                ],
+                "arrComplementos": [],
+                "area_nome": "--"
+            },
+            {
+                "id": 2,
+                "id_checklist": 1,
+                "item_nome": "Prumo",
+                "item_descricao": "",
+                "item_dica": "Método de verificação: Com prumo de face e trena\nCritério de aceitação: ± 3 mm",
+                "item_tipo": "Avaliativo",
+                "item_formato": "",
+                "item_obrigatorio": "Sim",
+                "item_tipo_avaliacao": "Opinião (Não/Sim/N.A)",
+                "item_peso": "17",
+                "arrAvaliacao": [
+                    {
+                        "n_ruim": [
+                            "plnAcao"
+                        ],
+                        "na_regular": [],
+                        "s_bom": []
+                    }
+                ],
+                "arrComplementos": [],
+                "area_nome": "--"
+            },
+            {
+                "id": 3,
+                "id_checklist": 1,
+                "item_nome": "Planicidade",
+                "item_descricao": "",
+                "item_dica": "Método de verificação: Com régua metálica e trena\nCritério de aceitação: ± 3 mm",
+                "item_tipo": "Avaliativo",
+                "item_formato": "",
+                "item_obrigatorio": "Sim",
+                "item_tipo_avaliacao": "Opinião (Não/Sim/N.A)",
+                "item_peso": "17",
+                "arrAvaliacao": [
+                    {
+                        "n_ruim": [
+                            "plnAcao"
+                        ],
+                        "na_regular": [],
+                        "s_bom": []
+                    }
+                ],
+                "arrComplementos": [],
+                "area_nome": "--"
+            },
+            {
+                "id": 4,
+                "id_checklist": 1,
+                "item_nome": "Vãos",
+                "item_descricao": "",
+                "item_dica": "Método de verificação: Medição\nCritério de aceitação: Vãos posicionados conforme projeto",
+                "item_tipo": "Avaliativo",
+                "item_formato": "",
+                "item_obrigatorio": "Sim",
+                "item_tipo_avaliacao": "Opinião (Não/Sim/N.A)",
+                "item_peso": "17",
+                "arrAvaliacao": [
+                    {
+                        "n_ruim": [
+                            "plnAcao"
+                        ],
+                        "na_regular": [],
+                        "s_bom": []
+                    }
+                ],
+                "arrComplementos": [],
+                "area_nome": "--"
+            },
+            {
+                "id": 5,
+                "id_checklist": 1,
+                "item_nome": "Acabamento",
+                "item_descricao": "",
+                "item_dica": "Método de verificação: Visual\nCritério de aceitação: Parede terminada e sem falhas",
+                "item_tipo": "Avaliativo",
+                "item_formato": "",
+                "item_obrigatorio": "Sim",
+                "item_tipo_avaliacao": "Opinião (Não/Sim/N.A)",
+                "item_peso": "17",
+                "arrAvaliacao": [
+                    {
+                        "n_ruim": [
+                            "plnAcao"
+                        ],
+                        "na_regular": [],
+                        "s_bom": []
+                    }
+                ],
+                "arrComplementos": [],
+                "area_nome": "--"
+            },
+            {
+                "id": 6,
+                "id_checklist": 1,
+                "item_nome": "Limpeza",
+                "item_descricao": "",
+                "item_dica": "Método de verificação: Visual\nCritério de aceitação: Ausência de sobras de argamassa",
+                "item_tipo": "Avaliativo",
+                "item_formato": "",
+                "item_obrigatorio": "Sim",
+                "item_tipo_avaliacao": "Opinião (Não/Sim/N.A)",
+                "item_peso": "",
+                "arrAvaliacao": [
+                    {
+                        "n_ruim": [
+                            "plnAcao"
+                        ],
+                        "na_regular": [],
+                        "s_bom": []
+                    }
+                ],
+                "arrComplementos": [],
+                "area_nome": "--"
+            }
+        ]
+    }
+]
