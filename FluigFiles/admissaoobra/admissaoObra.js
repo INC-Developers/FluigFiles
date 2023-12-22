@@ -120,6 +120,7 @@ $(document).ready(function () {
     if (ATV == 98) {
         show_on_click('rd_colab_aloj', 'Sim', null, null, 'div_colab_aloj');
         show_on_click('est_civ', 'Casado', null, null, 'dadosConjuge');
+        show_on_click('rd_possui_filhos', 'Sim', null, null, 'anx_docs_filho');
     }
     if (ATV || FM) {
         // ATV 0/4
