@@ -120,13 +120,13 @@ $(document).ready(function () {
     if (ATV == 98) {
         show_on_click('rd_colab_aloj', 'Sim', null, null, 'div_colab_aloj');
         
-        $('#est_civ').on('change', function() {
+        $('#est_civ').change(function() {
             var estCiv = $('#est_civ').val();
 
             if (estCiv == 'Casado'){
                 $('#dadosConjuge').show();
                 $('#anx_cert_nasc').hide();
-            } else {
+            } else if (estCiv == 'Solteiro' || estCiv == 'Divorciado' || estCiv == 'Viuvo'){
                 $('#anx_cert_nasc').show();
                 $('#dadosConjuge').hide();
             };
