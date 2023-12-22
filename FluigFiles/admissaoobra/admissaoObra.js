@@ -119,7 +119,15 @@ $(document).ready(function () {
     }
     if (ATV == 98) {
         show_on_click('rd_colab_aloj', 'Sim', null, null, 'div_colab_aloj');
-        show_on_click('est_civ', 'Casado', null, null, 'dadosConjuge');
+        
+        $('est_civ').on('change', function() {
+            var select = $('est_civ').val();
+            if (select == 'Casado'){
+                $('#dadosConjuge').show();
+                $('#anx_cert_nasc').hide();
+            }
+        })
+
         show_on_click('rd_possui_filhos', 'Sim', null, null, 'anx_docs_filho');
     }
     if (ATV || FM) {
