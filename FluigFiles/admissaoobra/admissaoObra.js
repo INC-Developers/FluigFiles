@@ -120,13 +120,15 @@ $(document).ready(function () {
     if (ATV == 98) {
         show_on_click('rd_colab_aloj', 'Sim', null, null, 'div_colab_aloj');
         
-        $('est_civ').on('change', function() {
-            var select = $('est_civ').val();
-            if (select == 'Casado'){
+        $('#est_civ').on('change', function() {
+            var estCiv = $('#est_civ').val();
+
+            if (estCiv == 'Casado'){
                 $('#dadosConjuge').show();
-                $('#anx_cert_nasc').hide();
-            }
-        })
+            } else {
+                $('#anx_cert_nasc').show();
+            };
+        });
 
         show_on_click('rd_possui_filhos', 'Sim', null, null, 'anx_docs_filho');
     }
