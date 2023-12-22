@@ -125,8 +125,10 @@ $(document).ready(function () {
 
             if (estCiv == 'Casado'){
                 $('#dadosConjuge').show();
+                $('#anx_cert_nasc').hide();
             } else {
                 $('#anx_cert_nasc').show();
+                $('#dadosConjuge').hide();
             };
         });
 
